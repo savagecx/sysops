@@ -8,7 +8,7 @@ def read_yaml_config(filename: str = "config.yaml") -> yaml.YAMLObject:
     Parameters
     ----------
     filename: str, optional
-        The YAML configuration filename (default is config.txt)
+        The YAML configuration filename (default is config.yaml)
 
     Returns
     -------
