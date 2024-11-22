@@ -1,13 +1,13 @@
 import logging
 
 # Setup Logging
-logger = logging.getLogger()
 logging.basicConfig(
     format="{asctime} - {levelname} - {message}",
     style="{",
     datefmt="%Y-%m-%d %H:%M",
     level=logging.DEBUG,
 )
+logger = logging.getLogger()
 
 # Write to log
 logger.debug(f"This is a debug message.")
